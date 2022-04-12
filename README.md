@@ -3,6 +3,10 @@ SfzeroSynth for juce thanks to Steve Volta
 
 visualstudio2019 / xCode
 
+just windows testet today....
+
+
+
 128 polyphonic audiosynth for sfzfiles 
 Adsr generators for Amp & Filters Delay and HpShape funktion
 
