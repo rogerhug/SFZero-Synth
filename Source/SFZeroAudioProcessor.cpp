@@ -328,7 +328,7 @@ void SFZeroAudioProcessor::applyGain(AudioSampleBuffer& buffer , AudioBuffer<Flo
 
 	float egGainAmp = ampEG.getValue() * parameters.mainVolumeModValue;
 	
-	 float gainLevel = (parameters.mainVolumeValue*4)*egGainAmp;
+	 float gainLevel = (parameters.mainVolumeValue*4)//----   not here ## * # egGainAmp;
 	
 	float peakL = 0;
     for (int channel = 0; channel < getTotalNumOutputChannels(); ++channel)
