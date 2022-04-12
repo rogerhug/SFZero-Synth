@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ImcWop" name="SFZero-R7records" projectType="audioplug" version="1.1.0"
+              bundleIdentifier="R7.SFZero-dev" buildVST="0" buildRTAS="0" buildAU="0"
+              pluginName="SFZero-R7records" pluginDesc="SFZero-R7records" pluginManufacturer="Roger Hug"
+              pluginManufacturerCode="SFlt" pluginCode="SFZd" pluginIsSynth="1"
+              pluginWantsMidiIn="1" pluginProducesMidiOut="0" pluginSilenceInIsSilenceOut="0"
+              pluginTailLength="0" pluginEditorRequiresKeys="0" pluginAUExportPrefix="SFZeroDevAU"
+              pluginAUViewClass="SFZeroAU_V1" pluginRTASCategory="" defines="JUCE_MODAL_LOOPS_PERMITTED=1"
+              aaxIdentifier="com.yourcompany.SFZero-dev" pluginAAXCategory="2"
+              buildVST3="1" buildAUv3="0" buildAAX="0" pluginIsMidiEffectPlugin="0"
+              includeBinaryInAppConfig="1" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" buildStandalone="1" enableIAA="0" companyCopyright=""
+              pluginFormats="buildStandalone,buildVST3" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
+              jucerFormatVersion="1" pluginRTASDisableBypass="0" pluginRTASDisableMultiMono="0"
+              pluginAAXDisableBypass="0" pluginAAXDisableMultiMono="0">
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" objCExtraSuffix="yKK8uA" vstFolder="~/SDKs/vstsdk2.4"
+               postbuildCommand="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="SFZero-dev"
+                       osxSDK="default" osxCompatibility="default" osxArchitecture="32BitUniversal"
+                       enablePluginBinaryCopyStep="1"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="2" targetName="SFZero-dev"
+                       osxSDK="default" osxCompatibility="default" osxArchitecture="32BitUniversal"
+                       enablePluginBinaryCopyStep="1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="..\..\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="..\..\modules"/>
+        <MODULEPATH id="juce_graphics" path="..\..\modules"/>
+        <MODULEPATH id="juce_events" path="..\..\modules"/>
+        <MODULEPATH id="juce_data_structures" path="..\..\modules"/>
+        <MODULEPATH id="juce_core" path="..\..\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="..\..\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="..\..\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="..\..\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="..\..\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="..\..\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="..\..\modules"/>
+        <MODULEPATH id="juce_dsp" path="../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <LINUX_MAKE targetFolder="Builds/Linux" vstFolder="~/SDKs/vstsdk2.4">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="SFZero"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="2"
+                       targetName="SFZero"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="/home/steve/local/src/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="/home/steve/local/src/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="/home/steve/local/src/juce/modules"/>
+        <MODULEPATH id="juce_events" path="/home/steve/local/src/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="/home/steve/local/src/juce/modules"/>
+        <MODULEPATH id="juce_core" path="/home/steve/local/src/juce/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="/home/steve/local/src/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="/home/steve/local/src/juce/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="/home/steve/local/src/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="/home/steve/local/src/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="/home/steve/local/src/juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="/home/steve/local/src/juce/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <VS2017 targetFolder="Builds/VisualStudio2017" vst3Folder="" windowsTargetPlatformVersion="10.0.16299.0">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="0" isDebug="1" optimisation="1" targetName="SFZero-dev"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="1" isDebug="0" optimisation="3" targetName="SFZero-dev"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="..\..\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="..\..\modules"/>
+        <MODULEPATH id="juce_graphics" path="..\..\modules"/>
+        <MODULEPATH id="juce_events" path="..\..\modules"/>
+        <MODULEPATH id="juce_data_structures" path="..\..\modules"/>
+        <MODULEPATH id="juce_core" path="..\..\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="..\..\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="..\..\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="..\..\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="..\..\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="..\..\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="..\..\modules"/>
+        <MODULEPATH id="juce_dsp" path="../../modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="JuceLibraryCode\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="JuceLibraryCode\modules"/>
+        <MODULEPATH id="juce_graphics" path="JuceLibraryCode\modules"/>
+        <MODULEPATH id="juce_events" path="JuceLibraryCode\modules"/>
+        <MODULEPATH id="juce_data_structures" path="JuceLibraryCode\modules"/>
+        <MODULEPATH id="juce_core" path="JuceLibraryCode\modules"/>
+        <MODULEPATH id="juce_audio_utils" path="JuceLibraryCode\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="JuceLibraryCode\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="JuceLibraryCode\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="JuceLibraryCode\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="JuceLibraryCode\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="JuceLibraryCode\modules"/>
+        <MODULEPATH id="juce_dsp" path="../../modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MAINGROUP id="STGh0u" name="SFZero-R7records">
+    <GROUP id="{54687760-EC0D-1097-E604-8EF567463DEE}" name="SFZero">
+      <GROUP id="{E79C8CF5-BE5C-B566-E2DB-9E7F99AA9B89}" name="SFZero">
+        <GROUP id="{86F01368-8742-DCCF-86D6-981D37BAB732}" name="sf2-chunks">
+          <FILE id="ucxWLT" name="generators.h" compile="0" resource="0" file="module/SFZero/SFZero/sf2-chunks/generators.h"/>
+          <FILE id="JA2qAk" name="ibag.h" compile="0" resource="0" file="module/SFZero/SFZero/sf2-chunks/ibag.h"/>
+          <FILE id="OaoOix" name="igen.h" compile="0" resource="0" file="module/SFZero/SFZero/sf2-chunks/igen.h"/>
+          <FILE id="cAcUcR" name="imod.h" compile="0" resource="0" file="module/SFZero/SFZero/sf2-chunks/imod.h"/>
+          <FILE id="g9x58r" name="inst.h" compile="0" resource="0" file="module/SFZero/SFZero/sf2-chunks/inst.h"/>
+          <FILE id="czs9ao" name="iver.h" compile="0" resource="0" file="module/SFZero/SFZero/sf2-chunks/iver.h"/>
+          <FILE id="vvYqxo" name="pbag.h" compile="0" resource="0" file="module/SFZero/SFZero/sf2-chunks/pbag.h"/>
+          <FILE id="VqaZkQ" name="pgen.h" compile="0" resource="0" file="module/SFZero/SFZero/sf2-chunks/pgen.h"/>
+          <FILE id="yy8FkI" name="phdr.h" compile="0" resource="0" file="module/SFZero/SFZero/sf2-chunks/phdr.h"/>
+          <FILE id="q34PLW" name="pmod.h" compile="0" resource="0" file="module/SFZero/SFZero/sf2-chunks/pmod.h"/>
+          <FILE id="Fb5g5W" name="shdr.h" compile="0" resource="0" file="module/SFZero/SFZero/sf2-chunks/shdr.h"/>
+        </GROUP>
+        <FILE id="FtXgRN" name="RIFF.cpp" compile="1" resource="0" file="module/SFZero/SFZero/RIFF.cpp"/>
+        <FILE id="BGN7Pt" name="RIFF.h" compile="0" resource="0" file="module/SFZero/SFZero/RIFF.h"/>
+        <FILE id="rucLTE" name="SF2.cpp" compile="1" resource="0" file="module/SFZero/SFZero/SF2.cpp"/>
+        <FILE id="V2CZGx" name="SF2.h" compile="0" resource="0" file="module/SFZero/SFZero/SF2.h"/>
+        <FILE id="uIrPM6" name="SF2Generator.cpp" compile="1" resource="0"
+              file="module/SFZero/SFZero/SF2Generator.cpp"/>
+        <FILE id="hOezca" name="SF2Generator.h" compile="0" resource="0" file="module/SFZero/SFZero/SF2Generator.h"/>
+        <FILE id="xnbHGQ" name="SF2Reader.cpp" compile="1" resource="0" file="module/SFZero/SFZero/SF2Reader.cpp"/>
+        <FILE id="jLE6VS" name="SF2Reader.h" compile="0" resource="0" file="module/SFZero/SFZero/SF2Reader.h"/>
+        <FILE id="MEh0bh" name="SF2Sound.cpp" compile="1" resource="0" file="module/SFZero/SFZero/SF2Sound.cpp"/>
+        <FILE id="W5XX58" name="SF2Sound.h" compile="0" resource="0" file="module/SFZero/SFZero/SF2Sound.h"/>
+        <FILE id="wswq2e" name="SFZDebug.cpp" compile="1" resource="0" file="module/SFZero/SFZero/SFZDebug.cpp"/>
+        <FILE id="oxKLWy" name="SFZDebug.h" compile="0" resource="0" file="module/SFZero/SFZero/SFZDebug.h"/>
+        <FILE id="djr97H" name="SFZEG.cpp" compile="1" resource="0" file="module/SFZero/SFZero/SFZEG.cpp"/>
+        <FILE id="UzBIky" name="SFZEG.h" compile="0" resource="0" file="module/SFZero/SFZero/SFZEG.h"/>
+        <FILE id="p15sDN" name="SFZReader.cpp" compile="1" resource="0" file="module/SFZero/SFZero/SFZReader.cpp"/>
+        <FILE id="sDpUDl" name="SFZReader.h" compile="0" resource="0" file="module/SFZero/SFZero/SFZReader.h"/>
+        <FILE id="ESWhKg" name="SFZRegion.cpp" compile="1" resource="0" file="module/SFZero/SFZero/SFZRegion.cpp"/>
+        <FILE id="Quu50W" name="SFZRegion.h" compile="0" resource="0" file="module/SFZero/SFZero/SFZRegion.h"/>
+        <FILE id="aJiBMr" name="SFZSample.cpp" compile="1" resource="0" file="module/SFZero/SFZero/SFZSample.cpp"/>
+        <FILE id="VG3ApB" name="SFZSample.h" compile="0" resource="0" file="module/SFZero/SFZero/SFZSample.h"/>
+        <FILE id="KFBJzI" name="SFZSound.cpp" compile="1" resource="0" file="module/SFZero/SFZero/SFZSound.cpp"/>
+        <FILE id="n7y3Em" name="SFZSound.h" compile="0" resource="0" file="module/SFZero/SFZero/SFZSound.h"/>
+        <FILE id="nHqWYM" name="SFZSynth.cpp" compile="1" resource="0" file="module/SFZero/SFZero/SFZSynth.cpp"/>
+        <FILE id="EgBEE3" name="SFZSynth.h" compile="0" resource="0" file="module/SFZero/SFZero/SFZSynth.h"/>
+        <FILE id="Bi74I4" name="SFZVoice.cpp" compile="1" resource="0" file="module/SFZero/SFZero/SFZVoice.cpp"/>
+        <FILE id="SwIWva" name="SFZVoice.h" compile="0" resource="0" file="module/SFZero/SFZero/SFZVoice.h"/>
+        <FILE id="pZmNvk" name="StringSlice.h" compile="0" resource="0" file="module/SFZero/SFZero/StringSlice.h"/>
+        <FILE id="uyhayE" name="WinTypes.h" compile="0" resource="0" file="module/SFZero/SFZero/WinTypes.h"/>
+      </GROUP>
+      <FILE id="ZEBhLZ" name="SFZero.cpp" compile="1" resource="0" file="module/SFZero/SFZero.cpp"/>
+      <FILE id="RjJqT2" name="SFZero.h" compile="0" resource="0" file="module/SFZero/SFZero.h"/>
+    </GROUP>
+    <GROUP id="{1110531B-E755-9964-D428-0B0E27C2D745}" name="Source">
+      <FILE id="QX2VW0" name="ADSREnvelope.cpp" compile="1" resource="0"
+            file="Source/ADSREnvelope.cpp"/>
+      <FILE id="RZ0JxA" name="ADSREnvelope.hpp" compile="0" resource="0"
+            file="Source/ADSREnvelope.hpp"/>
+      <FILE id="kRKN92" name="EnvelopeGeneratorBase.cpp" compile="1" resource="0"
+            file="Source/EnvelopeGeneratorBase.cpp"/>
+      <FILE id="Ee9ijF" name="EnvelopeGeneratorBase.hpp" compile="0" resource="0"
+            file="Source/EnvelopeGeneratorBase.hpp"/>
+      <FILE id="G26znh" name="customLook.h" compile="0" resource="0" file="Source/customLook.h"/>
+      <FILE id="fMrrpu" name="UVmeter.h" compile="0" resource="0" file="Source/UVmeter.h"/>
+      <FILE id="f2JG4S" name="Eutils.h" compile="0" resource="0" file="Source/Eutils.h"/>
+      <FILE id="tbAEM7" name="Eutils.cpp" compile="1" resource="0" file="Source/Eutils.cpp"/>
+      <FILE id="onAAbD" name="ClickableLabel.cpp" compile="1" resource="0"
+            file="Source/ClickableLabel.cpp"/>
+      <FILE id="lQwIPH" name="ClickableLabel.h" compile="0" resource="0"
+            file="Source/ClickableLabel.h"/>
+      <FILE id="yZI0iG" name="ParasGui.cpp" compile="1" resource="0" file="Source/ParasGui.cpp"/>
+      <FILE id="d55ox4" name="ParasGui.h" compile="0" resource="0" file="Source/ParasGui.h"/>
+      <FILE id="lGjwLB" name="PluginParameters.cpp" compile="1" resource="0"
+            file="Source/PluginParameters.cpp"/>
+      <FILE id="UaqXID" name="PluginParameters.h" compile="0" resource="0"
+            file="Source/PluginParameters.h"/>
+      <FILE id="RIbbop" name="SFZeroAudioProcessor.cpp" compile="1" resource="0"
+            file="Source/SFZeroAudioProcessor.cpp"/>
+      <FILE id="KVoSSg" name="SFZeroAudioProcessor.h" compile="0" resource="0"
+            file="Source/SFZeroAudioProcessor.h"/>
+      <FILE id="IxDO9a" name="SFZeroEditor.cpp" compile="1" resource="0"
+            file="Source/SFZeroEditor.cpp"/>
+      <FILE id="uE896w" name="SFZeroEditor.h" compile="0" resource="0" file="Source/SFZeroEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="1"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled" JUCE_USE_OGGVORBIS="1"/>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
