@@ -1,7 +1,7 @@
 #include "SFZDebug.h"
 #include <stdarg.h>
 
-//using namespace SFZero;
+using namespace SFZero;
 
 #ifdef JUCE_DEBUG
 
