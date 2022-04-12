@@ -15,7 +15,7 @@ easy sampelMap editor download here:
 http://steveholt.drealm.info/sfZed.html
 
 Windows 7/10 PlayerStandalone download here:
-https://drive.google.com/file/d/1o1_FDKVtms5L3hFGALq7bd-vfHHScHlD/view?usp=sharing
+
 
 
 
