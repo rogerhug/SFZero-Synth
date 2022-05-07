@@ -1,4 +1,4 @@
-# SFZero-Synth Modell-1
+# SFZero-Synth Modell-1.01
 SfzeroSynth for juce thanks to Steve Folta
 
 visualstudio2019 / xCode
