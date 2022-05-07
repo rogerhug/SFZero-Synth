@@ -1,5 +1,5 @@
 # SFZero-Synth Modell-1
-SfzeroSynth for juce thanks to Steve Volta
+SfzeroSynth for juce thanks to Steve Folta
 
 visualstudio2019 / xCode
 
@@ -16,11 +16,15 @@ http://steveholt.drealm.info/sfZed.html
 
 Windows 7/10 PlayerStandalone download here:
 
-https://drive.google.com/file/d/1KokRAafzaE0ohyqoBX3hqSVzUImlrGIR/view?usp=sharing
+https://drive.google.com/drive/folders/19eIzyY8nwS9A0dQgiK0DNYat8ZhXbKO6?usp=sharing
 
 
-![sfs1](https://user-images.githubusercontent.com/13609732/162962853-f7f2a639-a1a6-4a5f-9a79-05b9c454a000.PNG)
 
+![ss1](https://user-images.githubusercontent.com/13609732/167257567-7668e77a-7455-4a42-aa62-d9d295ed6431.PNG)
+
+
+
+![ss2](https://user-images.githubusercontent.com/13609732/167257581-7c18d42d-6210-4b68-8229-efc2fa2aa590.PNG)
 
 works with reaper vst3 (amazing cpu<0.0 ??)
 Windows 7/10  vst3.dll download here:
